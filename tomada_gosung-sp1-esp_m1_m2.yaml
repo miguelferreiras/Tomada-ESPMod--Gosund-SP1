@@ -56,6 +56,9 @@ wifi:
     ssid: "Gosund SP1 Fallback Hotspot"
     password: " xxx "
 
+logger:
+  level: DEBUG
+
 captive_portal:
   
 sensor:
@@ -114,11 +117,11 @@ switch:
     name: Power
     icon: mdi:water-boiler
     pin: GPIO14
-    restore_mode: RESTORE_DEFAULT_ON # RESTORE_DEFAULT_OFF  ligar sempre no arranque para o termo não deixar de funcionar
+    restore_mode: RESTORE_DEFAULT_OFF
     on_turn_on:
-      - light.turn_off: led # invertido, quando ligado o led está apagado
+      - light.turn_on: led
     on_turn_off:
-      - light.turn_on: led # invertido, quando desligado o led está aceso para chamar a atençao
+      - light.turn_off: led 
 
 output:
   # esphome state led
