@@ -2,12 +2,7 @@
 Gosund SP1 3680 W 16 A WLAN para integração no ESPHome
 Esquema, PCB e código Yaml.
 
-<img
-src=“images/Gosund SP1 3680 W 16 A WLAN.jpg”
-raw=true
-alt=“Gosund SP1 3680 W 16 A WLAN.jpg”
-style=“margin-right: 10px;”
-/>
+![Gosund SP1 3680W 16A ESP-M1](images/Gosund SP1 3680 W 16 A WLAN.jpg)
 
 Substituição do microcontrolador Tuya CUCO Z0 R v1.2 por um ESP8285 M1 ou M2
 Necessário soldar componentes SMD e a nova placa no PCB da Tomada
